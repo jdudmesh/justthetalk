@@ -1,0 +1,65 @@
+/*
+ * This file is part of the NOTtheTalk distribution (https://github.com/jdudmesh/notthetalk).
+ * Copyright (c) 2011-2021 John Dudmesh.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, version 3.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+@media (max-device-width: 768px) {
+    .col-sm-3,
+    .col-sm-6,
+    .col-sm-9 {
+        width: 100%
+    }
+}
+
+@media (max-width: 768px) {
+    #logorow {
+        margin-top: 0px;
+    }
+    #bannerdesc {
+        padding-bottom: 12px;
+        height: auto;
+        display: none;
+    }
+    #loginsection {
+        float: none;
+        margin-left: 15px;
+        margin-bottom: 8px;
+    }
+    ul.flowlist>li {
+        display: inline-block;
+        margin-bottom: 24px;
+    }
+    ul.flowlist>li>a {
+        color: white;
+        padding: 8px;
+        background-color: #2A5880;
+    }
+    ul.flowlist>li>a:hover {
+        color: white;
+    }
+    h4 {
+        color: white;
+        padding: 8px;
+        background-color: #2A5880;
+    }
+    #folder-accordion a {
+        color: white;
+    }
+    #folder-accordian-heading1:selected,
+    #folder-accordian-heading1:focus,
+    #folder-accordian-heading1:hover {
+        text-decoration: none;
+    }
+}

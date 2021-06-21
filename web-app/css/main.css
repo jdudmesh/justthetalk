@@ -1,0 +1,386 @@
+/*
+ * This file is part of the NOTtheTalk distribution (https://github.com/jdudmesh/notthetalk).
+ * Copyright (c) 2011-2021 John Dudmesh.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, version 3.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+body {
+    font-family: verdana, arial, helvetica, sans-serif;
+    color: black;
+}
+
+#contentouter {
+    margin-bottom: 64px;
+}
+
+#content {
+    clear: both;
+}
+
+#contentheader .breadcrumb {
+    border-radius: 0px;
+}
+
+
+/*
+#toplogo {
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+*/
+
+#bannerdesc {
+    color: white;
+    background-color: #2A5880;
+    font-size: 1.0em;
+    height: 70px;
+    padding-top: 10px;
+}
+
+#header {
+    background-color: #2A5880;
+}
+
+.discussionlist {
+    margin-bottom: 12px;
+}
+
+.discussionlistitem {
+    margin-bottom: 12px;
+}
+
+.discussionlistitem>div {
+    color: #888888
+}
+
+#donate {
+    margin-top: 24px;
+}
+
+.navbar {
+    margin-bottom: 48px;
+}
+
+.bordered {
+    border-top: solid #c0c0c0 1px;
+    padding-top: 6px;
+}
+
+.currentStep,
+.step {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+a,
+.dropdown-menu>li>a {
+    color: #2A5880;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+.dropdown-menu>li>a:hover {
+    color: #428BCA;
+    text-decoration: underline;
+}
+
+.btn-primary {
+    background-color: #2A5880;
+    /* border-color: #428BCA;*/
+}
+
+.btn-primary:hover {}
+
+#logorow {
+    margin-top: 25px;
+    /*
+	height: 75px;
+*/
+}
+
+#loginsection {
+    float: right;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+.posttextarea {
+    display: block;
+    vertical-align: top;
+    width: 100%;
+    height: 180px;
+}
+
+.biotext {
+    display: block;
+    vertical-align: top;
+    width: 400px;
+    height: 180px;
+}
+
+.nobullets {
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.threadouterheader {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.threadheading {
+    border-top: solid #c0c0c0 1px;
+    background-color: #f5f5f5;
+    padding: 4px;
+    margin-bottom: 12px;
+}
+
+.threadheadingdesc {
+    margin-bottom: 12px;
+}
+
+.threadheadingdiscussionheader {
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.headertext {
+    padding-left: 4px;
+    color: #000036;
+    overflow: hidden;
+}
+
+.threadlocked {
+    font-style: italic;
+    color: red;
+    margin-bottom: 12px;
+}
+
+.threadnav {
+    margin-bottom: 12px;
+    width: 100%;
+    clear: both;
+}
+
+.post-moderated-deletedbyuser {
+    background-color: #c0c0c0;
+    padding: 4px;
+    clear: both;
+    margin-bottom: 12px;
+}
+
+.post-moderated-watch {
+    background-color: #c0FFc0;
+    padding: 4px;
+    clear: both;
+    margin-bottom: 12px;
+}
+
+.post-moderated-suspended {
+    background-color: #FF99CC;
+    padding: 4px;
+    clear: both;
+    margin-bottom: 12px;
+}
+
+.post-moderated-deleted {
+    background-color: #ffb7cb;
+    padding: 4px;
+    clear: both;
+    margin-bottom: 12px;
+}
+
+.post-moderated {
+    background-color: #fada77;
+    padding: 4px;
+    clear: both;
+    margin-bottom: 12px;
+}
+
+.post-ignored {
+    clear: both;
+}
+
+.post-status-message {}
+
+.postheader>div.alert,
+.postouter>div.alert {
+    margin-bottom: 4px;
+}
+
+#newpostsindicator {
+    margin-bottom: 4px;
+    cursor: default;
+}
+
+.moderation-report {}
+
+.moderation-report>div {
+    margin-bottom: 12px;
+}
+
+.moderation-actions {
+    float: right;
+    margin-top: 4px;
+}
+
+.moderation-actions>div.btn-group>ul {
+    background-color: white;
+}
+
+.moderation-actions>div {
+    margin-right: 4px;
+}
+
+.dropdown-menu>li>a.pageitem {
+    color: #2a6496;
+    display: inline;
+    padding: 2px;
+}
+
+#postlist {
+    clear: both;
+}
+
+.postheader {
+    width: 100%;
+    border-top: solid #c0c0c0 1px;
+    padding-top: 4px;
+    vertical-align: top;
+}
+
+.posttitle {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.postmenu {
+    float: right;
+}
+
+.postbody {
+    width: 100%;
+    clear: both;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.post-quoted {
+    margin-left: 36px;
+    margin-right: 36px;
+    font-family: Courier New, Courier, Monaco;
+    font-size: 0.9em;
+}
+
+.post-italic {
+    font-style: italic;
+}
+
+.post-bold {
+    font-weight: bold;
+}
+
+.post-centre {
+    text-align: center;
+}
+
+.post-underline {
+    text-decoration: underline;
+}
+
+.post-strikethrough {
+    text-decoration: line-through;
+}
+
+.post-noindentbullet {
+    padding-left: 1.5em;
+    margin-bottom: 0px;
+}
+
+.post-indent1 {
+    padding-left: 2em;
+}
+
+.post-indent2 {
+    padding-left: 4em;
+}
+
+.confirm-dialog {
+    /* width: 320px; */
+}
+
+.formwithmargin {
+    margin-bottom: 12px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.postbody>p {
+    margin-bottom: 0px;
+}
+
+code {
+    white-space: normal;
+}
+
+.linkspacer {
+    display: inline;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#donatebutton {
+    margin-bottom: 24px;
+}
+
+.centretext {
+    text-align: center;
+}
+
+.centrebutton {
+    margin: 12px auto;
+}
+
+
+/*
+@media (min-width:768px) {
+
+
+div#discussionsidebar.col-sm-3 {
+	float: none;
+	width: 100%;
+}
+
+#discussionsidebar > ul.flowlist > li {
+	display: inline-block;
+}
+div#maincontent.col-sm-3 {
+	width: 50%;
+}
+}
+*/
+
+.panel-title>a {
+    color: #2A5880;
+}
+
+#toolbar ol.breadcrumb {
+    min-height: 50px;
+}
