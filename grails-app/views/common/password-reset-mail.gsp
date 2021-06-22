@@ -29,7 +29,7 @@
   <p>Dear ${user.username }</p>
   <br/>
   <p>A password reset request has been received for your account. If you did not request this yourself you should contact
-  <a href="mailto:help@notthetalk.com">help@notthetalk.com</a>. If you did make this request then please follow
+  <a href="mailto:help@justthetalk.com">help@justthetalk.com</a>. If you did make this request then please follow
   the link below to rest you password</p>
   <br/>
   <p><a href="${url }">Reset my password...</a></p>

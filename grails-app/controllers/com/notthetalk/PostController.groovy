@@ -235,8 +235,8 @@ class PostController {
 			//if(Environment.getCurrent() != Environment.DEVELOPMENT) {
 				sendMail {
 					to report.email
-					from "help@notthetalk.com"
-					bcc "admins@notthetalk.com"
+					from "help@justthetalk.com"
+					bcc "admins@justthetalk.com"
 					subject "Report Confirmation"
 					html (view: "/common/report-submission-confirmation", model: [report:report])
 				}

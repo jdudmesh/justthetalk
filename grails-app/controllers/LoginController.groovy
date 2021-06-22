@@ -185,7 +185,7 @@ class LoginController {
 
 			sendMail {
 				to user.email
-				from "help@notthetalk.com"
+				from "help@justthetalk.com"
 				subject "Password Reset Request"
 				html (view: "/common/password-reset-mail", model: [url:url, user:user])
 			}

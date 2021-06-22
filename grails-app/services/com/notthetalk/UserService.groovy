@@ -87,8 +87,8 @@ class UserService {
 
 			sendMail {
 				to user.email
-				from "help@notthetalk.com"
-				bcc "admins@notthetalk.com"
+				from "help@justthetalk.com"
+				bcc "admins@justthetalk.com"
 				subject "Signup Confirmation"
 				html (view: "/common/signup-confirmation-mail", model: [user:user, conf:conf])
 			}

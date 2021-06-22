@@ -89,7 +89,7 @@
 <p>We will only disclose your information to third parties for the purposes of web analytics and it is used only in aggregated form. Please note that if you post or send offensive, inappropriate or objectionable content anywhere on our services, or otherwise engage in any disruptive behaviour, we may use your information to stop such behaviour. In this instance we may use your information to inform relevant third parties such as law enforcement agencies about the content and your behaviour.</p>
 
 <h4>Your rights and further information</h4>
-<p>Under the Data Protection Act and the GDPR you have the right to erasure and the right of portability. If you wish to delete your personal data or request a copy of it please contact <a href="mailto:help@notthetalk.com">help@notthetalk.com</a>.
+<p>Under the Data Protection Act and the GDPR you have the right to erasure and the right of portability. If you wish to delete your personal data or request a copy of it please contact <a href="mailto:help@justthetalk.com">help@justthetalk.com</a>.
 
 <p>Last updated: May 2018</p>
 
