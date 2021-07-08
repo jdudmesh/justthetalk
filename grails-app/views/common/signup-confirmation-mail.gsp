@@ -24,21 +24,23 @@
 </head>
 <body>
   <div class="body">
-  <div><img id="toplogo" src="http://www.notthetalk.com/images/logo.png"/></div>
+  <div>
+    <img alt="" src="data:image/png;base64,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" />
+  </div>
 
   <p>Dear ${user.username }</p>
   <br/>
   <p>Thank you for signing up to JUSTtheTalk. Welcome aboard! We hope that you enjoy the time you spend here. In order to prevent abuse
   of the site you must confirm your e-mail address before you can log in. To confirm your e-mail address, click on the link...</p>
   <div>
-	  <a href="http://talk.notthetalk.com/signup/confirm/${conf.confirmationKey}">http://justthetalk.com/signup/confirm/${conf.confirmationKey}</a>
+	  <a href="https://justthetalk.com/signup/confirm/${conf.confirmationKey}">https://justthetalk.com/signup/confirm/${conf.confirmationKey}</a>
   </div>
   <p>Once you have confirmed your e-mail address you can start posting but your initial posts will be moderated automatically. Don't panic, we do this to
   stop people abusing the site and its users. You'll soon be a fully fledged poster!</p>
   <br/>
   <p>If you have any problems, please contact <a href="mailto:help@justthetalk.com">help@justthetalk.com</a></p>
   <br/>
-  <p>If you forget your password you can reset it by following this link: <a href="http://justhetalk.com/login/forgotpassword">http://justthetalk.com/login/forgotpassword</a></p>
+  <p>If you forget your password you can reset it by following this link: <a href="https://justhetalk.com/login/forgotpassword">https://justthetalk.com/login/forgotpassword</a></p>
   <br/>
   <br/>
   <p>Best Regards,</p>
